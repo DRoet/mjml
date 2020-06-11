@@ -3,7 +3,7 @@ import yargs from 'yargs'
 import { flow, pick, isNil, negate, pickBy } from 'lodash/fp'
 import { isArray, isEmpty, map, get } from 'lodash'
 
-import mjml2html, { components, initializeType } from 'mjml-core'
+import { mjml2html, components, initializeType } from 'mjml-core'
 import { migrate } from 'mjml-migrate'
 import { MJMLValidator } from 'mjml-validator'
 import MJMLParser from 'mjml-parser-xml'

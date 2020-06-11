@@ -1,4 +1,4 @@
-import mjml2html, { registerComponent } from 'mjml-core'
+import { mjml2html, registerComponent } from 'mjml-core'
 import { registerDependencies } from 'mjml-validator'
 
 import { Social, SocialElement } from 'mjml-social'

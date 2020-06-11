@@ -40,7 +40,7 @@ class ValidationError extends Error {
   }
 }
 
-export default function mjml2html(mjml, options = {}) {
+export function mjml2html(mjml, options = {}) {
   let content = ''
   let errors = []
 
