@@ -2,8 +2,8 @@
   "name": "mjml-master",
   "private": true,
   "scripts": {
-    "build:watch": "lerna run build --parallel -- -- -w",
-    "build": "lerna run build --parallel",
+    "build:watch": "lerna exec --parallel -- rollup -w -c=../../rollup.config.js",
+    "build": "lerna exec --parallel -- rollup -c=../../rollup.config.js",
     "lint": "eslint .",
     "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
@@ -17,6 +17,8 @@
     "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.7",
     "@babel/register": "^7.8.6",
+    "@rollup/plugin-babel": "^5.0.3",
+    "@rollup/plugin-node-resolve": "^8.0.1",
     "babel-eslint": "^10.1.0",
     "babel-plugin-add-module-exports": "^1.0.2",
     "babel-plugin-lodash": "^3.3.4",
@@ -28,6 +30,7 @@
     "lerna": "^3.22.0",
     "opn": "^5.1.0",
     "prettier": "^2.0.5",
-    "rimraf": "^2.6.1"
+    "rimraf": "^2.6.1",
+    "rollup": "^2.15.0"
   }
 }
