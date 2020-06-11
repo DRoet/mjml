@@ -4,8 +4,8 @@ import { flow, pick, isNil, negate, pickBy } from 'lodash/fp'
 import { isArray, isEmpty, map, get } from 'lodash'
 
 import mjml2html, { components, initializeType } from 'mjml-core'
-import migrate from 'mjml-migrate'
-import validate from 'mjml-validator'
+import { migrate } from 'mjml-migrate'
+import { MJMLValidator } from 'mjml-validator'
 import MJMLParser from 'mjml-parser-xml'
 
 import { version as coreVersion } from 'mjml-core/package.json'
@@ -195,7 +195,7 @@ export default async () => {
         case 'v': // eslint-disable-next-line no-case-declarations
           const mjmlJson = MJMLParser(i.mjml, { components })
           compiled = {
-            errors: validate(mjmlJson, { components, initializeType }),
+            errors: MJMLValidator(mjmlJson, { components, initializeType }),
           }
           break
         default:

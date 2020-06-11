@@ -1,9 +1,9 @@
 #!/bin/env node
 
-import fs from 'fs'
-import program from 'commander'
-import migrate from './migrate'
-import { version } from '../package.json'
+const fs = require('fs')
+const program = require('commander')
+const migrate = require('../lib/index.js')
+const { version } = require('../package.json')
 
 program
   .version(version)

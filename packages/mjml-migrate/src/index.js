@@ -185,7 +185,7 @@ const jsonToXML = ({ tagName, attributes, children, content }) => {
   }${subNode}</${tagName}>`
 }
 
-export default function migrate(input, options = {}) {
+export function migrate(input, options = {}) {
   const { beautify } = options
   if (typeof input === 'object') return loopThrough(input)
 

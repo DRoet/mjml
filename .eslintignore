@@ -5,3 +5,4 @@ type.js
 test-html-attributes.js
 test.js
 babel.config.js
+rollup.config.js

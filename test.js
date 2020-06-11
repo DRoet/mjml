@@ -1,6 +1,4 @@
-require('@babel/register')
-
-const mjml2html = require('./packages/mjml/src/index')
+const mjml2html = require('./packages/mjml/lib/index')
 
 const xml = `
 <mjml>
