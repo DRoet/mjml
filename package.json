@@ -5,7 +5,7 @@
     "build:watch": "yarn workspaces foreach -pi run build --watch",
     "build": "yarn workspaces foreach -p run build",
     "clean": "yarn workspaces foreach -p run clean",
-    "publish": "yarn workspaces foreach -p run publish",
+    "publish": "yarn workspaces foreach -p run publish --access public",
     "lint": "eslint .",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
