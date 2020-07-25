@@ -4206,7 +4206,7 @@ fsevents@~2.1.2:
   languageName: node
   linkType: hard
 
-"mjml-accordion@4.7.0-beta.1, mjml-accordion@workspace:packages/mjml-accordion":
+"mjml-accordion@workspace:*, mjml-accordion@workspace:packages/mjml-accordion":
   version: 0.0.0-use.local
   resolution: "mjml-accordion@workspace:packages/mjml-accordion"
   dependencies:
@@ -4214,12 +4214,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-body@4.7.0-beta.1, mjml-body@workspace:packages/mjml-body":
+"mjml-body@workspace:*, mjml-body@workspace:packages/mjml-body":
   version: 0.0.0-use.local
   resolution: "mjml-body@workspace:packages/mjml-body"
   dependencies:
@@ -4227,12 +4227,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-button@4.7.0-beta.1, mjml-button@workspace:packages/mjml-button":
+"mjml-button@workspace:*, mjml-button@workspace:packages/mjml-button":
   version: 0.0.0-use.local
   resolution: "mjml-button@workspace:packages/mjml-button"
   dependencies:
@@ -4240,12 +4240,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-carousel@4.7.0-beta.1, mjml-carousel@workspace:packages/mjml-carousel":
+"mjml-carousel@workspace:*, mjml-carousel@workspace:packages/mjml-carousel":
   version: 0.0.0-use.local
   resolution: "mjml-carousel@workspace:packages/mjml-carousel"
   dependencies:
@@ -4253,12 +4253,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-cli@4.7.0-beta.1, mjml-cli@workspace:packages/mjml-cli":
+"mjml-cli@workspace:*, mjml-cli@workspace:packages/mjml-cli":
   version: 0.0.0-use.local
   resolution: "mjml-cli@workspace:packages/mjml-cli"
   dependencies:
@@ -4269,10 +4269,10 @@ fsevents@~2.1.2:
     chokidar: ^3.0.0
     glob: ^7.1.1
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
-    mjml-migrate: 4.7.0-beta.1
-    mjml-parser-xml: 4.7.0-beta.1
-    mjml-validator: 4.7.0-beta.1
+    mjml-core: "workspace:*"
+    mjml-migrate: "workspace:*"
+    mjml-parser-xml: "workspace:*"
+    mjml-validator: "workspace:*"
     mocha: ^3.5.0
     rimraf: ^3.0.2
     yargs: ^13.3.0
@@ -4281,7 +4281,7 @@ fsevents@~2.1.2:
   languageName: unknown
   linkType: soft
 
-"mjml-column@4.7.0-beta.1, mjml-column@workspace:packages/mjml-column":
+"mjml-column@workspace:*, mjml-column@workspace:packages/mjml-column":
   version: 0.0.0-use.local
   resolution: "mjml-column@workspace:packages/mjml-column"
   dependencies:
@@ -4289,12 +4289,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-core@4.7.0-beta.1, mjml-core@workspace:packages/mjml-core":
+"mjml-core@workspace:*, mjml-core@workspace:packages/mjml-core":
   version: 0.0.0-use.local
   resolution: "mjml-core@workspace:packages/mjml-core"
   dependencies:
@@ -4307,14 +4307,14 @@ fsevents@~2.1.2:
     js-beautify: ^1.6.14
     juice: ^5.2.0
     lodash: ^4.17.15
-    mjml-migrate: 4.7.0-beta.1
-    mjml-parser-xml: 4.7.0-beta.1
-    mjml-validator: 4.7.0-beta.1
+    mjml-migrate: "workspace:*"
+    mjml-parser-xml: "workspace:*"
+    mjml-validator: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-divider@4.7.0-beta.1, mjml-divider@workspace:packages/mjml-divider":
+"mjml-divider@workspace:*, mjml-divider@workspace:packages/mjml-divider":
   version: 0.0.0-use.local
   resolution: "mjml-divider@workspace:packages/mjml-divider"
   dependencies:
@@ -4322,12 +4322,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-group@4.7.0-beta.1, mjml-group@workspace:packages/mjml-group":
+"mjml-group@workspace:*, mjml-group@workspace:packages/mjml-group":
   version: 0.0.0-use.local
   resolution: "mjml-group@workspace:packages/mjml-group"
   dependencies:
@@ -4335,12 +4335,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-attributes@4.7.0-beta.1, mjml-head-attributes@workspace:packages/mjml-head-attributes":
+"mjml-head-attributes@workspace:*, mjml-head-attributes@workspace:packages/mjml-head-attributes":
   version: 0.0.0-use.local
   resolution: "mjml-head-attributes@workspace:packages/mjml-head-attributes"
   dependencies:
@@ -4348,12 +4348,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-breakpoint@4.7.0-beta.1, mjml-head-breakpoint@workspace:packages/mjml-head-breakpoint":
+"mjml-head-breakpoint@workspace:*, mjml-head-breakpoint@workspace:packages/mjml-head-breakpoint":
   version: 0.0.0-use.local
   resolution: "mjml-head-breakpoint@workspace:packages/mjml-head-breakpoint"
   dependencies:
@@ -4361,12 +4361,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-font@4.7.0-beta.1, mjml-head-font@workspace:packages/mjml-head-font":
+"mjml-head-font@workspace:*, mjml-head-font@workspace:packages/mjml-head-font":
   version: 0.0.0-use.local
   resolution: "mjml-head-font@workspace:packages/mjml-head-font"
   dependencies:
@@ -4374,12 +4374,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-html-attributes@4.7.0-beta.1, mjml-head-html-attributes@workspace:packages/mjml-head-html-attributes":
+"mjml-head-html-attributes@workspace:*, mjml-head-html-attributes@workspace:packages/mjml-head-html-attributes":
   version: 0.0.0-use.local
   resolution: "mjml-head-html-attributes@workspace:packages/mjml-head-html-attributes"
   dependencies:
@@ -4387,12 +4387,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-preview@4.7.0-beta.1, mjml-head-preview@workspace:packages/mjml-head-preview":
+"mjml-head-preview@workspace:*, mjml-head-preview@workspace:packages/mjml-head-preview":
   version: 0.0.0-use.local
   resolution: "mjml-head-preview@workspace:packages/mjml-head-preview"
   dependencies:
@@ -4400,12 +4400,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-style@4.7.0-beta.1, mjml-head-style@workspace:packages/mjml-head-style":
+"mjml-head-style@workspace:*, mjml-head-style@workspace:packages/mjml-head-style":
   version: 0.0.0-use.local
   resolution: "mjml-head-style@workspace:packages/mjml-head-style"
   dependencies:
@@ -4413,12 +4413,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head-title@4.7.0-beta.1, mjml-head-title@workspace:packages/mjml-head-title":
+"mjml-head-title@workspace:*, mjml-head-title@workspace:packages/mjml-head-title":
   version: 0.0.0-use.local
   resolution: "mjml-head-title@workspace:packages/mjml-head-title"
   dependencies:
@@ -4426,12 +4426,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-head@4.7.0-beta.1, mjml-head@workspace:packages/mjml-head":
+"mjml-head@workspace:*, mjml-head@workspace:packages/mjml-head":
   version: 0.0.0-use.local
   resolution: "mjml-head@workspace:packages/mjml-head"
   dependencies:
@@ -4439,12 +4439,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-hero@4.7.0-beta.1, mjml-hero@workspace:packages/mjml-hero":
+"mjml-hero@workspace:*, mjml-hero@workspace:packages/mjml-hero":
   version: 0.0.0-use.local
   resolution: "mjml-hero@workspace:packages/mjml-hero"
   dependencies:
@@ -4452,12 +4452,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-image@4.7.0-beta.1, mjml-image@workspace:packages/mjml-image":
+"mjml-image@workspace:*, mjml-image@workspace:packages/mjml-image":
   version: 0.0.0-use.local
   resolution: "mjml-image@workspace:packages/mjml-image"
   dependencies:
@@ -4465,7 +4465,7 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
@@ -4493,7 +4493,7 @@ fsevents@~2.1.2:
   languageName: unknown
   linkType: soft
 
-"mjml-migrate@4.7.0-beta.1, mjml-migrate@workspace:packages/mjml-migrate":
+"mjml-migrate@workspace:*, mjml-migrate@workspace:packages/mjml-migrate":
   version: 0.0.0-use.local
   resolution: "mjml-migrate@workspace:packages/mjml-migrate"
   dependencies:
@@ -4503,15 +4503,15 @@ fsevents@~2.1.2:
     commander: ^2.11.0
     js-beautify: ^1.6.14
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
-    mjml-parser-xml: 4.7.0-beta.1
+    mjml-core: "workspace:*"
+    mjml-parser-xml: "workspace:*"
     rimraf: ^3.0.2
   bin:
     migrate: lib/cli.js
   languageName: unknown
   linkType: soft
 
-"mjml-navbar@4.7.0-beta.1, mjml-navbar@workspace:packages/mjml-navbar":
+"mjml-navbar@workspace:*, mjml-navbar@workspace:packages/mjml-navbar":
   version: 0.0.0-use.local
   resolution: "mjml-navbar@workspace:packages/mjml-navbar"
   dependencies:
@@ -4519,12 +4519,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-parser-xml@4.7.0-beta.1, mjml-parser-xml@workspace:packages/mjml-parser-xml":
+"mjml-parser-xml@workspace:*, mjml-parser-xml@workspace:packages/mjml-parser-xml":
   version: 0.0.0-use.local
   resolution: "mjml-parser-xml@workspace:packages/mjml-parser-xml"
   dependencies:
@@ -4534,13 +4534,13 @@ fsevents@~2.1.2:
     chai: ^4.1.1
     htmlparser2: ^3.9.2
     lodash: ^4.17.15
-    mjml: 4.7.0-beta.1
-    mjml-core: 4.7.0-beta.1
+    mjml: "workspace:*"
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-raw@4.7.0-beta.1, mjml-raw@workspace:packages/mjml-raw":
+"mjml-raw@workspace:*, mjml-raw@workspace:packages/mjml-raw":
   version: 0.0.0-use.local
   resolution: "mjml-raw@workspace:packages/mjml-raw"
   dependencies:
@@ -4548,12 +4548,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-section@4.7.0-beta.1, mjml-section@workspace:packages/mjml-section":
+"mjml-section@workspace:*, mjml-section@workspace:packages/mjml-section":
   version: 0.0.0-use.local
   resolution: "mjml-section@workspace:packages/mjml-section"
   dependencies:
@@ -4561,12 +4561,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-social@4.7.0-beta.1, mjml-social@workspace:packages/mjml-social":
+"mjml-social@workspace:*, mjml-social@workspace:packages/mjml-social":
   version: 0.0.0-use.local
   resolution: "mjml-social@workspace:packages/mjml-social"
   dependencies:
@@ -4574,12 +4574,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-spacer@4.7.0-beta.1, mjml-spacer@workspace:packages/mjml-spacer":
+"mjml-spacer@workspace:*, mjml-spacer@workspace:packages/mjml-spacer":
   version: 0.0.0-use.local
   resolution: "mjml-spacer@workspace:packages/mjml-spacer"
   dependencies:
@@ -4587,12 +4587,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-table@4.7.0-beta.1, mjml-table@workspace:packages/mjml-table":
+"mjml-table@workspace:*, mjml-table@workspace:packages/mjml-table":
   version: 0.0.0-use.local
   resolution: "mjml-table@workspace:packages/mjml-table"
   dependencies:
@@ -4600,12 +4600,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-text@4.7.0-beta.1, mjml-text@workspace:packages/mjml-text":
+"mjml-text@workspace:*, mjml-text@workspace:packages/mjml-text":
   version: 0.0.0-use.local
   resolution: "mjml-text@workspace:packages/mjml-text"
   dependencies:
@@ -4613,12 +4613,12 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
+    mjml-core: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml-validator@4.7.0-beta.1, mjml-validator@workspace:packages/mjml-validator":
+"mjml-validator@workspace:*, mjml-validator@workspace:packages/mjml-validator":
   version: 0.0.0-use.local
   resolution: "mjml-validator@workspace:packages/mjml-validator"
   dependencies:
@@ -4631,7 +4631,7 @@ fsevents@~2.1.2:
   languageName: unknown
   linkType: soft
 
-"mjml-wrapper@4.7.0-beta.1, mjml-wrapper@workspace:packages/mjml-wrapper":
+"mjml-wrapper@workspace:*, mjml-wrapper@workspace:packages/mjml-wrapper":
   version: 0.0.0-use.local
   resolution: "mjml-wrapper@workspace:packages/mjml-wrapper"
   dependencies:
@@ -4639,13 +4639,13 @@ fsevents@~2.1.2:
     "@babel/core": ^7.8.7
     "@babel/runtime": ^7.8.7
     lodash: ^4.17.15
-    mjml-core: 4.7.0-beta.1
-    mjml-section: 4.7.0-beta.1
+    mjml-core: "workspace:*"
+    mjml-section: "workspace:*"
     rimraf: ^3.0.2
   languageName: unknown
   linkType: soft
 
-"mjml@4.7.0-beta.1, mjml@workspace:packages/mjml":
+"mjml@workspace:*, mjml@workspace:packages/mjml":
   version: 0.0.0-use.local
   resolution: "mjml@workspace:packages/mjml"
   dependencies:
@@ -4654,35 +4654,35 @@ fsevents@~2.1.2:
     chai: ^4.1.1
     cheerio: 1.0.0-rc.3
     lodash: ^4.17.15
-    mjml-accordion: 4.7.0-beta.1
-    mjml-body: 4.7.0-beta.1
-    mjml-button: 4.7.0-beta.1
-    mjml-carousel: 4.7.0-beta.1
-    mjml-cli: 4.7.0-beta.1
-    mjml-column: 4.7.0-beta.1
-    mjml-core: 4.7.0-beta.1
-    mjml-divider: 4.7.0-beta.1
-    mjml-group: 4.7.0-beta.1
-    mjml-head: 4.7.0-beta.1
-    mjml-head-attributes: 4.7.0-beta.1
-    mjml-head-breakpoint: 4.7.0-beta.1
-    mjml-head-font: 4.7.0-beta.1
-    mjml-head-html-attributes: 4.7.0-beta.1
-    mjml-head-preview: 4.7.0-beta.1
-    mjml-head-style: 4.7.0-beta.1
-    mjml-head-title: 4.7.0-beta.1
-    mjml-hero: 4.7.0-beta.1
-    mjml-image: 4.7.0-beta.1
-    mjml-migrate: 4.7.0-beta.1
-    mjml-navbar: 4.7.0-beta.1
-    mjml-raw: 4.7.0-beta.1
-    mjml-section: 4.7.0-beta.1
-    mjml-social: 4.7.0-beta.1
-    mjml-spacer: 4.7.0-beta.1
-    mjml-table: 4.7.0-beta.1
-    mjml-text: 4.7.0-beta.1
-    mjml-validator: 4.7.0-beta.1
-    mjml-wrapper: 4.7.0-beta.1
+    mjml-accordion: "workspace:*"
+    mjml-body: "workspace:*"
+    mjml-button: "workspace:*"
+    mjml-carousel: "workspace:*"
+    mjml-cli: "workspace:*"
+    mjml-column: "workspace:*"
+    mjml-core: "workspace:*"
+    mjml-divider: "workspace:*"
+    mjml-group: "workspace:*"
+    mjml-head: "workspace:*"
+    mjml-head-attributes: "workspace:*"
+    mjml-head-breakpoint: "workspace:*"
+    mjml-head-font: "workspace:*"
+    mjml-head-html-attributes: "workspace:*"
+    mjml-head-preview: "workspace:*"
+    mjml-head-style: "workspace:*"
+    mjml-head-title: "workspace:*"
+    mjml-hero: "workspace:*"
+    mjml-image: "workspace:*"
+    mjml-migrate: "workspace:*"
+    mjml-navbar: "workspace:*"
+    mjml-raw: "workspace:*"
+    mjml-section: "workspace:*"
+    mjml-social: "workspace:*"
+    mjml-spacer: "workspace:*"
+    mjml-table: "workspace:*"
+    mjml-text: "workspace:*"
+    mjml-validator: "workspace:*"
+    mjml-wrapper: "workspace:*"
     rimraf: ^3.0.2
   bin:
     mjml: bin/mjml

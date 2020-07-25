@@ -27,10 +27,10 @@
     "chokidar": "^3.0.0",
     "glob": "^7.1.1",
     "lodash": "^4.17.15",
-    "mjml-core": "4.7.0-beta.1",
-    "mjml-migrate": "4.7.0-beta.1",
-    "mjml-parser-xml": "4.7.0-beta.1",
-    "mjml-validator": "4.7.0-beta.1",
+    "mjml-core": "workspace:*",
+    "mjml-migrate": "workspace:*",
+    "mjml-parser-xml": "workspace:*",
+    "mjml-validator": "workspace:*",
     "yargs": "^13.3.0"
   },
   "devDependencies": {

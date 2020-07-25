@@ -28,9 +28,9 @@
     "js-beautify": "^1.6.14",
     "juice": "^5.2.0",
     "lodash": "^4.17.15",
-    "mjml-migrate": "4.7.0-beta.1",
-    "mjml-parser-xml": "4.7.0-beta.1",
-    "mjml-validator": "4.7.0-beta.1"
+    "mjml-migrate": "workspace:*",
+    "mjml-parser-xml": "workspace:*",
+    "mjml-validator": "workspace:*"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
