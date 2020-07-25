@@ -5,3 +5,11 @@ lib
 node_modules
 test.html
 /**/npmignore
+
+# Yarn V2 w/ zero installs
+.yarn/*
+!.yarn/cache
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions

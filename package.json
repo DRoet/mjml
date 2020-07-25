@@ -2,10 +2,10 @@
   "name": "mjml-master",
   "private": true,
   "scripts": {
-    "build:watch": "lerna run build --parallel -- -- -w",
-    "build": "lerna run build --parallel",
+    "build:watch": "yarn workspaces foreach -pi run build --watch",
+    "build": "yarn workspaces foreach -p run build",
+    "clean": "yarn workspaces foreach -p run clean",
     "lint": "eslint .",
-    "postinstall": "lerna bootstrap",
     "prettier": "prettier --write \"packages/**/{src,bin}/**/*.?(js|json)\""
   },
   "workspaces": [
